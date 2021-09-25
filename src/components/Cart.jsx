@@ -9,7 +9,7 @@ export default class Cart extends React.Component {
       <tr>
         <td class="p-4">
           <div class="media align-items-center">
-            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="d-block ui-w-40 ui-bordered mr-4" alt="" />
+            <img src={this.props.ProductDetail.img}style={{"height":"40px","width":"40px"}} class="d-block ui-w-40 ui-bordered mr-4" alt="" />
             <div class="media-body">
               <a class="d-block text-dark">{this.props.ProductDetail.Title}</a>
             </div>
