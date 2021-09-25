@@ -1,0 +1,74 @@
+.deco {
+    text-decoration: none;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.linksColor>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+.linksColor>li>a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.img-section {
+    height: 100%;
+    width: 100%;
+}
+
+.twidth {
+    width: 100%;
+}
+
+.tb-margin {
+    margin-left: 25px;
+    margin-right: 5px;
+    float: right;
+}
+
+.twidth>tbody>tr>.row {
+    float: right;
+}
+
+body {
+    margin-top: 20px;
+    background: #eee;
+}
+
+.ui-w-40 {
+    width: 40px !important;
+    height: auto;
+}
+
+.card {
+    box-shadow: 0 1px 15px 1px rgba(52, 40, 104, .08);
+}
+
+.ui-product-color {
+    display: inline-block;
+    overflow: hidden;
+    margin: .144em;
+    width: .875rem;
+    height: .875rem;
+    border-radius: 10rem;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.15) inset;
+    vertical-align: middle;
+}
